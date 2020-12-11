@@ -16,3 +16,12 @@ J:\Projects\MultiLayer\MultiLayer\Project\Project.Core\obj\Debug\netstandard2.0\
 J:\Projects\MultiLayer\MultiLayer\Project\Project.Core\obj\Debug\netstandard2.0\Project.Core.csproj.CoreCompileInputs.cache
 J:\Projects\MultiLayer\MultiLayer\Project\Project.Core\obj\Debug\netstandard2.0\Project.Core.dll
 J:\Projects\MultiLayer\MultiLayer\Project\Project.Core\obj\Debug\netstandard2.0\Project.Core.pdb
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.deps.json
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.dll
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.pdb
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.csprojAssemblyReference.cache
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.AssemblyInfoInputs.cache
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.AssemblyInfo.cs
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.csproj.CoreCompileInputs.cache
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.dll
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.pdb
