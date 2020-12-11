@@ -6887,11 +6887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Api\\Project.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
       "projectName": "Project.Api",
-      "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Api\\Project.Api.csproj",
+      "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
       "packagesPath": "C:\\Users\\Majid\\.nuget\\packages\\",
-      "outputPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Api\\obj\\",
+      "outputPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6910,14 +6910,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Core\\Project.Core.csproj": {
-              "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Core\\Project.Core.csproj"
+            "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
+              "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
             },
-            "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Data\\Project.Data.csproj": {
-              "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Data\\Project.Data.csproj"
+            "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj": {
+              "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj"
             },
-            "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Services\\Project.Services.csproj": {
-              "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Services\\Project.Services.csproj"
+            "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj": {
+              "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj"
             }
           }
         }

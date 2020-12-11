@@ -1209,11 +1209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Services\\Project.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
       "projectName": "Project.Services",
-      "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Services\\Project.Services.csproj",
+      "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
       "packagesPath": "C:\\Users\\Majid\\.nuget\\packages\\",
-      "outputPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Services\\obj\\",
+      "outputPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1232,8 +1232,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Core\\Project.Core.csproj": {
-              "projectPath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Core\\Project.Core.csproj"
+            "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
+              "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
             }
           }
         }

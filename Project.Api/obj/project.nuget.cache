@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gaNKxxHmgwCgnt8d3pxSahdOfNfl/ReBqbi2AVWBRR+TPfVAI4WN0XrDn0LEzv6Ng6NIP5NqAUKkTL6J9A761g==",
+  "dgSpecHash": "6oyVHop2dorDtL9sABBQzJroB5zHgZYOOeVo55MCxHIX8oxXirbs+Z2geVAH2fj3KTJLUgaS81gxHFDLa+HvGA==",
   "success": true,
-  "projectFilePath": "J:\\Projects\\MultiLayer\\MultiLayer\\Project\\Project.Api\\Project.Api.csproj",
+  "projectFilePath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Majid\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Majid\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
