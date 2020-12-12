@@ -87,8 +87,9 @@ namespace Project.Api.Controllers
 
         }
 
+        //[HttpPost("User/{userEmail}/Role")]
         [HttpPost("AddUserToRole")]
-        public async Task<IActionResult> AddUserToRole(string userEmail, [FromBody] string roleName)
+        public async Task<IActionResult> AddUserToRole(string userEmail,  string roleName)
         {
             var user = _userManager.Users.SingleOrDefault(u => u.UserName == userEmail);
 

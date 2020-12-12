@@ -5,11 +5,13 @@ using Project.Core.MyCustomAttr;
 using Project.Core.IServices;
 using Project.Core.DTO;
 using Project.Api.Validators;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Project.Api.Controllers
 {
     [Route("Api/[Controller]")]
     [ApiController]
+    [Authorize]
     public class MusicsController : ControllerBase
     {
         private readonly IMusicService _musicService;

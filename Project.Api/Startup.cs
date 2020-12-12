@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using MyMusic.Api.Extensions;
 using Project.Core;
 using Project.Core.IServices;
 using Project.Core.Models.Auth;
@@ -43,6 +44,7 @@ namespace Project.Api
             //{
             //    services.AddTransient(item, item);
             //}
+            var jwtSettings = Configuration.GetSection("JWT").Get<JwtSettings>();
             services.AddControllers();
             var dataAssemblyName = typeof(MyDbContext).Assembly.GetName().Name;
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly(dataAssemblyName)));
@@ -59,7 +61,7 @@ namespace Project.Api
 
                 .AddEntityFrameworkStores<MyDbContext>()
                 .AddDefaultTokenProviders();
-
+            services.AddAuth(jwtSettings);
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
@@ -114,7 +116,7 @@ namespace Project.Api
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseAuth();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

@@ -241,3 +241,6 @@ C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\obj\Debug\netcoreapp3.1\s
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\obj\Debug\netcoreapp3.1\Project.Api.dll
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\obj\Debug\netcoreapp3.1\Project.Api.pdb
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\obj\Debug\netcoreapp3.1\Project.Api.genruntimeconfig.cache
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

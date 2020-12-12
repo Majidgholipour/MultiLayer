@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System;
 using Microsoft.AspNetCore.Builder;
+using Project.Api;
 
 namespace MyMusic.Api.Extensions
 {
