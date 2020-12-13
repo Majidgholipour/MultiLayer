@@ -34,3 +34,15 @@ C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.csproj.CopyComplete
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.dll
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\bin\Debug\netstandard2.1\Project.Data.deps.json
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\bin\Debug\netstandard2.1\Project.Data.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\bin\Debug\netstandard2.1\Project.Data.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\bin\Debug\netstandard2.1\Project.Core.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\bin\Debug\netstandard2.1\Project.Core.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.csprojAssemblyReference.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.AssemblyInfoInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.AssemblyInfo.cs
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.csproj.CoreCompileInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.csproj.CopyComplete
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Data\obj\Debug\netstandard2.1\Project.Data.pdb

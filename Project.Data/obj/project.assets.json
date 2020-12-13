@@ -7041,23 +7041,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Majid\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gholipour.m\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj",
+      "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj",
       "projectName": "Project.Data",
-      "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj",
-      "packagesPath": "C:\\Users\\Majid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Data\\obj\\",
+      "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Data\\Project.Data.csproj",
+      "packagesPath": "C:\\Users\\gholipour.m\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Majid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gholipour.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7070,8 +7066,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
-              "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
+            "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
+              "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
             }
           }
         }
@@ -7117,7 +7113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

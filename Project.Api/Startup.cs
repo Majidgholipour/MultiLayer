@@ -44,32 +44,32 @@ namespace Project.Api
             //{
             //    services.AddTransient(item, item);
             //}
-            var jwtSettings = Configuration.GetSection("JWT").Get<JwtSettings>();
+            services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
+            var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
+
             services.AddControllers();
+
             var dataAssemblyName = typeof(MyDbContext).Assembly.GetName().Name;
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly(dataAssemblyName)));
 
             services.AddIdentity<User, Role>(options =>
             {
                 options.Password.RequiredLength = 8;
-                //options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireNonAlphanumeric = true;
                 options.Password.RequireUppercase = true;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1d);
                 options.Lockout.MaxFailedAccessAttempts = 5;
-            }
-            )
-
+            })
                 .AddEntityFrameworkStores<MyDbContext>()
                 .AddDefaultTokenProviders();
-            services.AddAuth(jwtSettings);
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
-            services.AddAutoMapper(typeof(Startup));
-            services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
+
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "My Music", Version = "v1" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "My Project", Version = "v1" });
 
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -97,10 +97,10 @@ namespace Project.Api
                     };
                 options.AddSecurityRequirement(security);
             });
+
             services.AddAutoMapper(typeof(Startup));
 
-            // services.AddAuth(jwtSettings);
-
+            services.AddAuth(jwtSettings);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

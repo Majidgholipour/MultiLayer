@@ -34,3 +34,15 @@ C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandar
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.csproj.CopyComplete
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.dll
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\bin\Debug\netstandard2.0\Project.Services.deps.json
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\bin\Debug\netstandard2.0\Project.Services.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\bin\Debug\netstandard2.0\Project.Services.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\bin\Debug\netstandard2.0\Project.Core.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\bin\Debug\netstandard2.0\Project.Core.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.csprojAssemblyReference.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.AssemblyInfoInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.AssemblyInfo.cs
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.csproj.CoreCompileInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.csproj.CopyComplete
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Services\obj\Debug\netstandard2.0\Project.Services.pdb

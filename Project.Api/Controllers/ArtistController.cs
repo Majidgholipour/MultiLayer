@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Project.Api.Validators;
 using Project.Core.DTO;
@@ -11,6 +13,7 @@ namespace Project.Api.Controllers
 {
     [Route("Api/[Controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme,Roles = "test,test1")]
     public class ArtistController : ControllerBase
     {
         private readonly IArtistService _ArtistService;
@@ -18,12 +21,14 @@ namespace Project.Api.Controllers
         {
             this._ArtistService = artistService;
         }
+        [Authorize(Roles = "test")]
         [HttpGet("")]
         public async Task<ActionResult<IEnumerable<ArtistDTO>>> GetAllArtists()
         {
             var artist = await _ArtistService.GetAllArtists();
             return Ok(artist);
         }
+        [Authorize(Roles = "test1")]
         [HttpGet("{id}")]
         public async Task<ActionResult<ArtistDTO>> GetArtistById(int id)
         {

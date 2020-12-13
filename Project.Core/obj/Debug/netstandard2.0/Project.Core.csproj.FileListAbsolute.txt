@@ -25,3 +25,12 @@ C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.csproj.CoreCompileInputs.cache
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.dll
 C:\Users\Majid\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.deps.json
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\bin\Debug\netstandard2.0\Project.Core.pdb
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.csprojAssemblyReference.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.AssemblyInfoInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.AssemblyInfo.cs
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.csproj.CoreCompileInputs.cache
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.dll
+C:\Users\gholipour.m\Documents\GitHub\MultiLayer\Project.Core\obj\Debug\netstandard2.0\Project.Core.pdb

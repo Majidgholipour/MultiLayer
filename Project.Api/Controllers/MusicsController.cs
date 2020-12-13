@@ -6,12 +6,13 @@ using Project.Core.IServices;
 using Project.Core.DTO;
 using Project.Api.Validators;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Project.Api.Controllers
 {
     [Route("Api/[Controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class MusicsController : ControllerBase
     {
         private readonly IMusicService _musicService;

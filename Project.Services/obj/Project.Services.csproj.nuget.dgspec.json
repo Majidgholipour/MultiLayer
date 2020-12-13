@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj": {}
+    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
+    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj",
+        "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj",
         "projectName": "Project.Core",
-        "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj",
-        "packagesPath": "C:\\Users\\Majid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\obj\\",
+        "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj",
+        "packagesPath": "C:\\Users\\gholipour.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gholipour.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,24 +63,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj": {
+    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
+        "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
         "projectName": "Project.Services",
-        "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
-        "packagesPath": "C:\\Users\\Majid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Services\\obj\\",
+        "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Services\\Project.Services.csproj",
+        "packagesPath": "C:\\Users\\gholipour.m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gholipour.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +90,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
-                "projectPath": "C:\\Users\\Majid\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
+              "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj": {
+                "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Core\\Project.Core.csproj"
               }
             }
           }
@@ -136,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
