@@ -6,7 +6,7 @@ using Project.Core.Models.Auth;
 
 namespace Project.Api.Mapping
 {
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
@@ -20,6 +20,15 @@ namespace Project.Api.Mapping
             CreateMap<SaveMusicDTO, MusicDTO>();
             CreateMap<ArtistDTO, Artist>();
             CreateMap<SaveArtistDTO, Artist>();
+
+            #region "Product"
+            CreateMap<Product, ProductDTO>();
+            CreateMap<Product, SaveProductDTO>();
+            CreateMap<ProductDTO, SaveProductDTO>();
+            CreateMap<SaveProductDTO, ProductDTO>();
+            CreateMap<SaveProductDTO, Product>();
+            #endregion
+
 
             CreateMap<UserSignUpDTO, User>().ForMember(u => u.UserName, o => o.MapFrom(u => u.Email));
         }

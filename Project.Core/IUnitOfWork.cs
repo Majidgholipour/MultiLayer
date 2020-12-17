@@ -10,6 +10,7 @@ namespace Project.Core
     {
         IMusicRepository Musics { get; }
         IArtistRepository Artists { get; }
+        IProductRepository Products { get; }
         Task<int> CommitAsync();
     }
 }

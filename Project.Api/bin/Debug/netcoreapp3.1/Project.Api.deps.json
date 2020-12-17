@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Project.Api/1.0.0": {
+      "project.api/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
@@ -295,10 +295,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Project.Api.dll": {}
+          "project.api.dll": {}
         },
         "compile": {
-          "Project.Api.dll": {}
+          "project.api.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -3355,7 +3355,7 @@
     }
   },
   "libraries": {
-    "Project.Api/1.0.0": {
+    "project.api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6993,11 +6993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
-      "projectName": "Project.Api",
-      "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
+      "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj",
+      "projectName": "project.api",
+      "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj",
       "packagesPath": "C:\\Users\\gholipour.m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\obj\\",
+      "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gholipour.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
