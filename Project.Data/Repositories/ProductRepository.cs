@@ -23,7 +23,13 @@ namespace Project.Data.Repositories
         {
             return await MyDbContext.Products.SingleOrDefaultAsync(p => p.Id == id);
         }
-          private MyDbContext MyDbContext
+
+        public async Task<Product> GetProductByCode(string code)
+        {
+            return await MyDbContext.Products.SingleOrDefaultAsync(p => p.Code == code);
+        }
+
+        private MyDbContext MyDbContext
         {
             get { return Context as MyDbContext; }
         }

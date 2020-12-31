@@ -22,6 +22,7 @@ namespace Project.Api.Mapping
             CreateMap<SaveArtistDTO, Artist>();
 
             #region "Product"
+            CreateMap<ProductDTO, Product>();
             CreateMap<Product, ProductDTO>();
             CreateMap<Product, SaveProductDTO>();
             CreateMap<ProductDTO, SaveProductDTO>();

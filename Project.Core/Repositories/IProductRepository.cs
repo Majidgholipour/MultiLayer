@@ -10,6 +10,7 @@ namespace Project.Core.Repositories
     {
         Task<IEnumerable<Product>> GetAllWithProductAsync();
         Task<Product> GetWithProductByIdAsync(int id);
+        Task<Product> GetProductByCode(string Code);
         
     }
 }

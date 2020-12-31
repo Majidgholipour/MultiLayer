@@ -60,9 +60,9 @@ namespace Project.Services
         public async Task<MusicDTO> UpdateMusic(MusicDTO musicToBeUpdated, SaveMusicDTO music)
         {
             var newmusic = _mapper.Map<SaveMusicDTO, Music>(music);
-            var newmusicBacis = _mapper.Map<MusicDTO, Music>(musicToBeUpdated);
-            newmusicBacis.Name = newmusic.Name;
-            newmusicBacis.ArtistId = newmusic.ArtistId;
+            var newmusicBasic = _mapper.Map<MusicDTO, Music>(musicToBeUpdated);
+            newmusicBasic.Name = newmusic.Name;
+            newmusicBasic.ArtistId = newmusic.ArtistId;
             await uow.CommitAsync();
             var updatedMusic = await GetMusicById(newmusic.Id);
             return updatedMusic;

@@ -8,10 +8,11 @@ namespace Project.Core.IServices
 {
     public interface IProductService
     {
-        Task<IEnumerable<ProductDTO>> GetAllArtists();
-        Task<ProductDTO> GetArtistById(int id);
-        Task<ProductDTO> CreateArtist(SaveProductDTO newProduct);
-        Task<ProductDTO> UpdateArtist(ProductDTO ProductToBeUpdated, SaveProductDTO Product);
-        Task DeleteArtist(ProductDTO Product);
+        Task<IEnumerable<ProductDTO>> GetAllProducts();
+        Task<ProductDTO> GetProductById(int id);
+        Task<ProductDTO> GetProductByCode(string code);
+        Task<ProductDTO> CreateProduct(SaveProductDTO newProduct);
+        Task<ProductDTO> UpdateProduct(ProductDTO ProductToBeUpdated, SaveProductDTO Product);
+        Task DeleteProduct(ProductDTO Product);
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj": {}
+    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj": {
+    "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj",
-        "projectName": "project.api",
-        "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj",
+        "projectUniqueName": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
+        "projectName": "Project.Api",
+        "projectPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
         "packagesPath": "C:\\Users\\gholipour.m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\obj\\",
+        "outputPath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gholipour.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
