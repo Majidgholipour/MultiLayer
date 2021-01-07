@@ -47,7 +47,8 @@ namespace Project.Api
             services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
             var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(option=>
+            option.SerializerSettings.ReferenceLoopHandling=Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
             var dataAssemblyName = typeof(MyDbContext).Assembly.GetName().Name;
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly(dataAssemblyName)));
@@ -66,6 +67,8 @@ namespace Project.Api
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
+            services.AddTransient<IProductGroupsService, ProductGroupsService>();
+            services.AddTransient<IProductService, ProductService>();
 
             services.AddSwaggerGen(options =>
             {

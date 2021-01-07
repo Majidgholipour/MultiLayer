@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mW43oehSkormI+OPrIrNu5W+yiHApjkWqoS7y+zoHZezmVVRX2ePnDk3XYmwuuc9Urzs8D+YDxZvzuyzwJFQWA==",
+  "dgSpecHash": "/n/SHmeYJ+YLY+Hrx4xKaE6/AdQyNFlkrgudIAatBIS0URP6blxaoL84r6ENC69U3JwBIbKZUJw9NT7PhyunwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\Project.Api\\Project.Api.csproj",
+  "projectFilePath": "C:\\Users\\gholipour.m\\Documents\\GitHub\\MultiLayer\\project.api\\project.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gholipour.m\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -69,7 +69,7 @@
     "C:\\Users\\gholipour.m\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\microsoft.openapi\\1.1.1\\microsoft.openapi.1.1.1.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "C:\\Users\\gholipour.m\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\gholipour.m\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\gholipour.m\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -13,7 +13,9 @@ namespace Project.Data
         private readonly MyDbContext _context;
         private MusicRepository _musicRepository;
         private ArtistRepository _artistRepository;
-        private Prdo
+        private ProductRepository _ProductRepository;
+        private ProductGroupRepository _ProductGroupRepository;
+        
 
         public UnitOfWork(MyDbContext context)
         {
@@ -23,8 +25,9 @@ namespace Project.Data
         public IArtistRepository Artists => _artistRepository = _artistRepository ?? new ArtistRepository(_context);
 
         public IMusicRepository Musics => _musicRepository = _musicRepository ?? new MusicRepository(_context);
-
-        public IArtistRepository Products => _
+        public IProductRepository Products => _ProductRepository = _ProductRepository ?? new ProductRepository(_context);
+        
+        public IProductGroupRepository productGroups => _ProductGroupRepository = _ProductGroupRepository ?? new ProductGroupRepository(_context);
 
         public async Task<int> CommitAsync()
         {

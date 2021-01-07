@@ -30,6 +30,15 @@ namespace Project.Api.Mapping
             CreateMap<SaveProductDTO, Product>();
             #endregion
 
+            #region "ProductGroup"
+            CreateMap<ProductGroupDTO, ProductGroup>();
+            CreateMap<ProductGroup, ProductGroupDTO>();
+            CreateMap<ProductGroup, SaveProductGroupDTO>();
+            CreateMap<ProductGroupDTO, SaveProductGroupDTO>();
+            CreateMap<SaveProductGroupDTO, ProductGroupDTO>();
+            CreateMap<SaveProductGroupDTO, ProductGroup>();
+            #endregion
+
 
             CreateMap<UserSignUpDTO, User>().ForMember(u => u.UserName, o => o.MapFrom(u => u.Email));
         }

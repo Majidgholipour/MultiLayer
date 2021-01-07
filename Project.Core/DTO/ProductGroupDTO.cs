@@ -9,5 +9,6 @@ namespace Project.Core.DTO
         public int Id { get; set; }
         public string Code { get; set; }
         public string Caption { get; set; }
+        public int ProductGroupId { get; set; }
     }
 }

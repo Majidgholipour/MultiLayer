@@ -11,6 +11,7 @@ namespace Project.Core
         IMusicRepository Musics { get; }
         IArtistRepository Artists { get; }
         IProductRepository Products { get; }
+        IProductGroupRepository  productGroups { get; }
         Task<int> CommitAsync();
     }
 }

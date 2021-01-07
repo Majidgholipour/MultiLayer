@@ -6,7 +6,8 @@ namespace Project.Core.DTO
 {
     public class SaveProductDTO
     {
-        public string Name { get; set; }
+        public string Caption { get; set; }
         public string Code { get; set; }
+        public int ProductGroupId { get; set; }
     }
 }

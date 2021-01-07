@@ -60,7 +60,7 @@ namespace Project.Services
 
         public async Task<ProductDTO> UpdateProduct(ProductDTO ProductToBeUpdated, SaveProductDTO Product)
         {
-            var newProduct = _mapper.Map<ProductDTO, Product>(ProductToBeUpdated);
+            var newProduct = _mapper.Map<SaveProductDTO, Product>(Product);
             var newProductBasic = _mapper.Map<ProductDTO, Product>(ProductToBeUpdated);
             newProductBasic.Caption = newProduct.Caption;
             newProductBasic.Code = newProduct.Caption;

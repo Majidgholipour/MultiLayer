@@ -11,7 +11,7 @@ namespace Project.Api.Validators
     {
         public SaveProductDTOValidator()
         {
-            RuleFor(a => a.Name)
+            RuleFor(a => a.Caption)
                 .NotEmpty()
                 .MaximumLength(50).WithMessage("Product name must be enterd");
             RuleFor(a => a.Code)
